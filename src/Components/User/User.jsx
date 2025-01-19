@@ -6,8 +6,7 @@ import  './User.css'
 const User = () => {
     const user= useLoaderData()
    
-    
-    console.log(user)
+
     return (
         <div >
             <h1>Data length:{user.length}</h1>
